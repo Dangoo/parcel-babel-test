@@ -1,0 +1,19 @@
+{
+  "name": "parcel-example",
+  "version": "1.0.0",
+  "private": true,
+  "source": "src/index.html",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "scripts": {
+    "build": "parcel build",
+    "start": "parcel"
+  },
+  "browserslist": "defaults"
+}
