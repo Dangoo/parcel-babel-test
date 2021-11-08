@@ -2102,7 +2102,7 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-babel-plugin-const-enum@^1.1.0:
+babel-plugin-const-enum@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-const-enum/-/babel-plugin-const-enum-1.1.0.tgz#c0be36335bdc8504fc1d95d1161c82a6eea9047e"
   integrity sha512-HcqyEOv8IUXY/pEe/4b/6yW2SfilxlII+2Ok4l5vkE8UrN4gFgGqhhSPFbVuX0dIyG8TSHvt+7qccOI1kjynUw==
@@ -2110,6 +2110,14 @@ babel-plugin-const-enum@^1.1.0:
     "@babel/generator" "^7.5.0"
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-typescript" "^7.3.3"
+
+babel-preset-const-enum@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/babel-preset-const-enum/-/babel-preset-const-enum-1.0.0.tgz#d5273efda2a084fae52768c34130d64ce2524cb4"
+  integrity sha512-DHfcv3mkgIqPaFODzig3Esb91cCqZlnImSl7VAwJDtIsqJvx4H08kpl051um68gjqnAXg5up5nnn6NK+Cq0blA==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+    babel-plugin-const-enum "^1.0.0"
 
 balanced-match@^1.0.0:
   version "1.0.2"

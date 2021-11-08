@@ -6,7 +6,7 @@
   ],
   "devDependencies": {
     "@babel/preset-typescript": "^7.15.0",
-    "babel-plugin-const-enum": "^1.1.0",
+    "babel-preset-const-enum": "^1.0.0",
     "lerna": "^4.0.0"
   }
 }
